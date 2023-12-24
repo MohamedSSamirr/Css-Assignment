@@ -1,0 +1,86 @@
+/* first Project  */
+
+/* .parent {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #F2F2F4;
+    position: relative;
+    margin-top: 50px ;
+    transition: all 0.5s  0s ease-in-out ;
+    -webkit-transition: all 0.5s  0s ease-in-out ;
+    -moz-transition: all 0.5s  0s ease-in-out ;
+    -ms-transition: all 0.5s  0s ease-in-out ;
+    -o-transition: all 0.5s  0s ease-in-out ;
+}
+.parent div {
+    background-color: #DEDEDC;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    padding: 15px 30px ;
+    transition: all 0.5s  0.5s ease-in-out ;
+    -webkit-transition: all 0.5s  0.5s ease-in-out ;
+    -moz-transition: all 0.5s  0.5s ease-in-out ;
+    -ms-transition: all 0.5s  0.5s ease-in-out ;
+    -o-transition: all 0.5s  0.5s ease-in-out ;
+}
+.parent:hover {
+    margin-top: 10px;
+}
+.parent:hover div {
+    margin-top: 50px;
+} */
+
+
+
+
+/*  Second Project  */
+/* 
+
+div {
+    background-color: #eee !important;
+    color: black !important;
+    padding: 15px auto !important;
+    font-size: 20px !important;
+    width: 400px !important;
+    color:transparent !important;
+    border: 0 solid transparent !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+div::after {
+    content:"Elzero";
+    color: black;
+    position: absolute;
+    top: calc((64px - 24px) / 2);
+    left:calc((440px - 52.268px) / 2) ;
+
+} */
+
+
+/* Thrid Project  */
+
+/* 
+
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+  
+  div {
+    padding: var(--mainPadding , 10px);
+    color: var(--mainColor , red);
+    border: 3px solid var(--mainColor , #000000 );
+    margin: var(--mainPadding ,10px);
+  } */
+
+
+
+ /* Fourth Project  */
+

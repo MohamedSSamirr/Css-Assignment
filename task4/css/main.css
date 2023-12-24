@@ -1,0 +1,23 @@
+/* *****************************first project ********************* */
+/* .child .title {
+    color: red;
+}
+.parent>.title {
+    color: blue;
+} 
+.parent p , div:last-child {
+    color:  green;
+} */
+/* *****************************second project ********************* */
+/* div {
+    width: fit-content;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    background-color: brown;
+    max-width: 400px;
+    max-height: 40px;
+}
+.box4 {
+    overflow: hidden;
+} */
+/* *****************************Thrid project ********************* */

@@ -1,0 +1,53 @@
+/* first Project  */
+
+/* div.main.red {
+    color: red;
+} */
+
+
+/*  Second Project  */
+
+/* .child:nth-child(2) {
+    color: red;
+} */
+
+/* Thrid Project  */
+/* 
+
+    .baby:only-child {
+color: red;
+}
+ */
+
+
+
+ /* Fourth Project  */
+
+    /* div:nth-child(4), div:nth-child(5) , div:nth-child(6){
+    color: red ;
+} */
+
+/* Fith Project  */
+
+/* div:nth-child(2) div[title="Elzero"] {
+color: red;
+} */
+
+/* Six Project  */
+
+/* div:not(:last-of-type) div:nth-last-of-type(2) {
+    color: red;
+} */
+
+
+/* Seven Project  */
+
+/* div:first-of-type div:nth-last-of-type(2) {
+    color: red;
+} */
+
+/* Eight Project  */
+
+/* *:not(:last-child , h3 , :first-child ) {
+    color: red;
+} */

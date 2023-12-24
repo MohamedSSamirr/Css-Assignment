@@ -1,0 +1,80 @@
+/* first Project  */
+
+/* * {
+    box-sizing: border-box;
+}
+div{ 
+   border: 10px solid ;
+   border-color: transparent #673AB7  transparent #F44336 ; 
+    position: relative;
+    width: 600px;
+    height: 100px;
+    background-color: #ddd;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+div::after {
+    content: "";
+    width: 103.4%;
+    position: absolute;
+    height: 10px;
+    background-image: linear-gradient(to right , #F44336 20% , #2196F3 20% ,#2196F3 40%, #4CAF50 40%,#4CAF50 60%  , #E91E63 60%, #E91E63 80% , #673AB7 80%  )  ;
+    top: 80px;
+    left: -10px ;
+    }
+
+div::before {
+    content: "";
+    width: 103.4%;
+    position: absolute;
+    height: 10px;
+    background-image: linear-gradient(to right , #F44336 20% , #2196F3 20% ,#2196F3 40%, #4CAF50 40%,#4CAF50 60%  , #E91E63 60%, #E91E63 80% , #673AB7 80%  )  ;
+    top: -10px;
+    left: -10px ;
+    }
+div::first-letter {
+color: #F44336;
+} */
+
+
+
+
+/*  Second Project  */
+
+/* div {
+    width: 600px;
+    padding: 10px;
+    background-color: #ddd;
+    margin: 20px auto;
+    position: relative;
+    caret-color: red;
+
+}
+div:not(:first-child) {
+    color: #757575 ;
+}
+div::after {
+    content: "";
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+    height: 3px ;
+    width: 100% ;
+    background-image: linear-gradient( to right , #F44336 50% , #009688 50% ,#009688 100%  );
+}
+
+ */
+
+
+/* Thrid Project  */
+
+
+
+
+
+
+
+ /* Fourth Project  */
+

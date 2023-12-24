@@ -1,0 +1,254 @@
+/* first Project  */
+    /* div {
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+        margin-left: auto;
+        margin-right: auto;
+        color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        box-shadow: 10px 0 0 orange  , 
+        -10px 0 0 #03A9F4 ;
+}
+ */
+
+
+
+
+/*  Second Project  */
+
+/* 
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 10px auto;
+}
+.parent div {
+    width: calc((100% - 6%) / 3 );
+    text-align: center;
+    color: white;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    height: 20px;
+    background-color: red;
+    font-size: 20px;
+}
+ */
+
+
+
+/* Thrid Project  */
+
+/* .parent {
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-bottom: auto;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-content: space-evenly; 
+    padding: 10px ;
+}
+.parent div {
+    background-color: #607D8B ;
+    width: calc(94% / 3 ); 
+    text-align: center; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one {
+order: 6;
+align-self: flex-end ;
+}
+.two {
+order: 5;
+}
+.three {
+ order: 2 ; 
+ 
+}
+.four {
+ order: 3;
+}
+.five {
+ order: 4;
+}
+.six {
+    order: 1;
+}
+.three ,.one {
+    height: 20%;
+}
+.six, .five ,.two ,.four {
+    height: calc(100% / 2);
+}
+ */
+
+ /* Fourth Project  */
+
+
+ /* 
+.parent {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #eee;
+    justify-content: space-between;
+}
+.parent div {
+    background-color: #009688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(97% / 3);
+    color: white;
+    font-weight: bold;
+}
+.one , .three {
+align-self: flex-end;
+width: 5%;
+}
+.two {
+    width: 50%;
+} */
+
+ /* fifth Project  */
+
+/* .parent {
+    width: 600px;
+    height: 300px ;
+    background-color: #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent div {
+    
+    width: 50px ;
+    height: 100px ;
+    padding: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 30px;
+
+}
+.one {
+    background-color: #FF9800;
+    order: 1 ; 
+    margin-left:150px ;
+}
+.two {
+    background-color: #8BC34A;
+    order: 4 ;
+    margin-right:200px ;
+}
+.three {
+    background-color: #795548;
+    order: 2 ;
+    margin-left:250px ;
+}
+.four {
+    background-color: #673AB7 ;
+    order: 3 ; 
+    margin-right:200px ;
+} */
+
+    /* six project  */
+
+/* .page {
+    width: 600px ;
+    height: 300px ;
+    background-color: #c51a1a ;
+    padding: 10px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: flex ;
+    flex-wrap: wrap ; 
+    align-content: space-between ;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+.logo , .links {
+    background-color: #DDD;
+    height: 50px ;
+    display: flex ;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    justify-content: center ;
+}
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end ;
+    width: 500px;
+    margin: 0;
+}
+.links li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-area {
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    height: 180px ;
+}
+.content {
+    background-color: #DDD; 
+    width: calc(( ( 2 / 3 ) * ( 100% - 10px ) )  );
+    height: calc( 300px - 120px );
+}
+.sidebar {
+    background-color: #DDD; 
+    width: calc(( ( 1 / 3 ) * ( 100% - 10px ) ) );
+    height: calc( 300px - 120px );
+}
+.footer {
+    width: 100%;
+    background-color: #DDD; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.copyright , .design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.copyright {
+    margin-right: 300px;
+} */

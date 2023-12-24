@@ -1,0 +1,120 @@
+/* first Project  */
+
+/* * {
+    box-sizing: border-box;
+}
+div:first-of-type , div:last-child {
+    width: 300px ;
+    height: 60px ;
+    background-color: #EEEEEE ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+padding: px;
+}
+
+div:nth-child(2) {
+    width: 300px ;
+    height: 60px ;
+    text-align: center;
+    margin: 10px auto;
+    background-color: red;
+    padding: 20px;
+} */
+
+
+
+/*  Second Project  */
+
+/* div {
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: #eee;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+}
+div::first-letter {
+    visibility: hidden;
+}
+div::before {
+
+    content: "1";
+    background-color: red;
+    position: absolute;
+    padding: 8px;
+    left: -11px;
+    top: 4px;
+    height: 15px;
+
+} */
+
+/* Thrid Project  */
+/* 
+p { 
+    background-color: #eee;
+    padding: 10px;
+    border-left: 3px solid #E91E63;
+    margin-left: auto;
+    margin-right: auto;
+    width: 313px;
+    position: relative;
+    right: -30px;
+}
+p::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #E91E63 transparent transparent;
+    height: 0px;
+    left: -12px;
+    top: 16px;
+}
+p::before {
+    content: attr(data-person);
+    background-color: gray;
+    position: absolute;
+    left: -68px;
+    top: 6px;
+    width: 14%;
+    padding: 5px;
+} */
+
+
+ /* Fourth Project  */
+    
+
+    /* p {
+        padding:15px 15px 15px 58px;
+        position: relative;
+        background-color: #EEE;
+        margin-bottom: 10PX;
+        margin-left: auto;
+        margin-right: auto;
+        counter-increment: Numb;
+    }
+    p::after {
+
+        content: "";
+        position: absolute;
+        left: 100%;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        background-color: red;
+    }
+    p::after {
+        align-items: center;
+        font-size: px;
+        content: counter(Numb);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 28.743px;
+        width: 32.743px;
+        padding: 10px;
+        background-color: red;
+        text-align: center;
+    } */

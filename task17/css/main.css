@@ -1,0 +1,456 @@
+/* first Project  */
+/*
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 50px ;
+    height: 50px;
+    margin:  150px auto;
+    background-color: transparent;
+    border: 5px solid  ;
+    border-color: transparent blue blue blue;
+    border-radius: 50px ;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ;
+    position: relative;
+    animation: rblue 5s linear 0s infinite none ;
+    -webkit-animation: rblue 1s linear 0s infinite none ;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+div::after {
+    content: "";
+    position: absolute;
+    width: calc( 50px + 15px )  ;
+    height: calc( 50px + 15px ) ;
+    left: -12.5px ;
+    top: -12.5px ;
+    background-color: transparent;
+    border: 5px solid  ;
+    border-color: orange orange transparent orange ;
+    border-radius: calc( 50px + 12.5px );
+    -webkit-border-radius: calc( 50px + 12.5px );
+    -moz-border-radius: calc( 50px + 12.5px );
+    -ms-border-radius: calc( 50px + 12.5px );
+    -o-border-radius: calc( 50px + 12.5px );
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    width: calc( 50px + 30px )  ;
+    height: calc( 50px + 30px ) ;
+    left: -20px ;
+    top: -20px ;
+    background-color: transparent;
+    border: 5px solid  ;
+    border-color: transparent black black black  ;
+    border-radius: calc( 50px + 30px );
+    -webkit-border-radius: calc( 50px + 30px );
+    -moz-border-radius: calc( 50px + 30px );
+    -ms-border-radius: calc( 50px + 30px );
+    -o-border-radius: calc( 50px + 30px );
+}
+
+@keyframes rblue {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    25% {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+    50% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+    75% {
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+}
+    50px {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+
+div:hover  {
+    animation-play-state: paused ;
+}
+
+*/
+
+/*  Second Project  */
+
+/* * {
+    box-sizing: border-box;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    margin: 150px auto;
+    background-color: transparent;
+    border: 5px solid;
+    border-color: blue transparent blue blue;
+    border-radius: 50px;
+    position: relative;
+    animation-name: bblue;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+
+div .son2 {
+    position: absolute;
+    width: calc(50px + 15px);
+    height: calc(50px + 15px);
+    left: -12.5px;
+    top: -162px;
+    background-color: transparent;
+    border: 5px solid;
+    border-color: orange orange transparent orange;
+    border-radius: calc(50px + 12.5px);
+    animation-name: oorange;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+
+div .son1 {
+
+    position: absolute;
+    width: calc(50px + 30px);
+    height: calc(50px + 30px);
+    left: -20px;
+    top: -169.5px;
+    background-color: transparent;
+    border: 5px solid;
+    border-color: transparent black black black;
+    border-radius: calc(50px + 30px);
+    animation-name: bblack;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bblue {
+    0% , 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+
+
+}
+
+@keyframes oorange {
+    0% , 100%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    25% {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+    50% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+    75% {
+        transform: rotate(270deg);
+        -webkit-transform:;
+        -moz-transform:;
+        -ms-transform:;
+        -o-transform:;
+}
+100%{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+
+}
+
+@keyframes bblack {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    25% {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+    50% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+    75% {
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+
+}
+
+div:hover {
+    animation-play-state: running;
+} */
+
+
+/* Thrid Project  */
+
+
+/* 
+span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 350px auto ;
+    background-color: gray ;
+    position: relative;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+span::before {
+    content: "";
+    position: absolute;
+    width: calc( 100%  - 10px );
+    height: calc( 100%  - 10px );
+    background-color: transparent;
+    border: 5px solid  ;
+    border-color: black black black transparent;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    animation: coolor 1s linear 0s infinite ;
+    -webkit-animation: coolor 1s linear 0s infinite ;
+}
+@keyframes coolor {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    25% {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+    50% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+    75% {
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+
+} */
+
+
+/* Fourth Project  */
+
+/* * {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.parent {
+    margin: 50% auto; 
+    font-size: 180px;
+    color: black;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.E , .L {
+    position: relative;
+}
+
+.E::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: orange;
+    right: 15px;
+    top: 39px;
+    z-index: 2;
+    animation:sshow 5s linear 2.5s infinite ;
+    -webkit-animation:sshow 5s linear 2.5s infinite ;
+}
+.L::after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    right: 9px;
+    top: 152px;
+    z-index: 2;
+    animation: coolor 5s linear 0s infinite ;
+    -webkit-animation: coolor 5s linear 0s infinite ;
+}
+
+@keyframes sshow {
+    0% , 100% {
+        right: 15px;
+        top: 39px;
+    }
+    50% {
+        right: 15px;
+        top: 39px;
+    }
+    55.5% {
+        right: 92px;
+        top: 39px;
+    }
+    61% {
+        right: 92px;
+        top: 93px;
+    }
+    66.5% {
+        right: 20px ; 
+        top: 93px ;
+    }
+    72% {
+        right: 92px;
+        top: 93px;
+    }
+    77.5% {
+        top: 152px;
+        right: 93px;
+    }
+    83% {
+        top: 152px;
+        right: 12px;
+    }
+    88.5% {
+        top: 152px ; 
+        right: 93px ;
+    }
+    94% {
+        right: 92px;
+        top: 39px;
+    }
+}
+@keyframes coolor {
+    0% {
+        background-color: transparent ;
+    }
+    12.5% {
+        right: 9px;
+        top: 152px;
+        background-color:orange ;
+    }
+    25% {
+        right: 73px ; 
+        top: 152px ;
+        background-color:orange ;
+    }
+    37.5% {
+        top: 39px ; 
+        right: 73px ;
+        background-color:orange ;
+    }
+
+    50% ,100% {
+        top: 39px ; 
+        right: 73px ;
+        color: transparent ;
+    }
+} */

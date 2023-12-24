@@ -1,0 +1,143 @@
+/* first Project  */
+
+/* @media print {
+    font-size:  40px ; ;
+} */
+
+
+
+
+/*  Second Project  */
+
+/* 
+.parent {
+    margin: 0px auto ;
+    background-color: rgb(14, 231, 220) ;
+    width: 1200px ;
+    display: flex ;
+    flex-wrap: wrap ;
+    flex-direction: row ; 
+    justify-content: space-evenly ;
+    align-content: space-evenly ;
+}
+.son {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    width: 270px ;
+    padding: 20px ;
+    background-color: rgb(190, 187, 187) ;
+}
+p {
+    font: 20px ;
+}
+@media (max-width: 768px) {
+    .parent {
+        width: 750px;
+    }
+    .son {
+        width: 730px ;
+    }
+}
+
+@media (min-width: 768px ) {
+    .parent {
+        width: 970px;
+    }
+    .son {
+        width: 435px;
+        
+    }
+    h3 {
+        color: Red ;
+    }
+}
+
+@media (min-width: 1200px ) {
+    .parent {
+        width: 1170px;
+    }
+    .son {
+        width: 215px;
+    }
+    h3 {
+        color: #1D968A ;
+    }
+}  */
+
+/* Thrid Project  */
+.parent {
+    margin: 20px auto ;
+    background-color: rgb(14, 231, 220) ;
+    
+    display: flex ;
+    flex-direction: ;
+    flex-wrap: wrap ; 
+}
+.son {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 270px;
+    padding: 20px;
+    background-color: rgb(190, 187, 187);
+}
+p {
+    font: 20px ;
+}
+
+/* small */
+@media (max-width: 768px) {
+    .parent {
+        width: 750px;
+    }
+    .son {
+        width: 730px;
+    }
+}
+/* Medium */
+@media (min-width: 768px ) {
+    .parent {
+        width: 970px;
+    }
+    .son:first-of-type { 
+        width: calc(100% - 70px); 
+    }
+    .son:nth-last-of-type(2) , .son:nth-last-of-type(3) , .son:last-of-type {
+        width: calc(79% / 3 ) ;
+    }
+    h3 {
+        color: red ;
+    }
+}
+
+@media (min-width: 1200px ) {
+    .parent {
+        width: 1170px ; 
+    }
+    .son:first-of-type { 
+        width: calc(100% - 70px) ; 
+    }
+    .son:nth-last-of-type(2) , .son:nth-last-of-type(3) {
+        width: calc(50% - 70px) ;
+    }
+    .son:last-of-type {
+        width: calc(100% - 70px) ; 
+    }
+    h3 {
+        color: #1D968A ;
+    }
+} 
+
+
+
+
+
+
+
+ /* Fourth Project  */
+

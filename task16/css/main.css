@@ -1,0 +1,265 @@
+/* first Project  */
+
+/* :root {
+    --Color: Orange ;
+}
+
+h1 {
+    width: 100px;
+    background-color: var(--Color);
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding: 50px;
+    margin: 150px auto;
+    position: relative;
+}
+
+h1::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skew(15deg, 16deg);
+    -webkit-transform: skew(15deg, 16deg);
+    -moz-transform: skew(15deg, 16deg);
+    -ms-transform: skew(15deg, 16deg);
+    -o-transform: skew(15deg, 16deg);
+    background-color: var(--Color);
+    left: 3px;
+    top: 0px;
+    z-index: -1;
+}
+
+h1::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skew(-15deg, -16deg);
+    -webkit-transform: skew(-15deg, -16deg);
+    -moz-transform: skew(-15deg, -16deg);
+    -ms-transform: skew(-15deg, -16deg);
+    -o-transform: skew(-15deg, -16deg);
+    background-color: var(--Color);
+    left: 3px;
+    top: 0px;
+    z-index: -1;
+} */
+
+
+/*  Second Project  */
+
+/* 
+h1 {
+     width: 150px;
+     margin: 100px auto ;
+     padding: 30px 20px ;
+     font-size: 45px !important;
+     color: white;
+     background-color: #009688;
+     font-size: 20px ;
+     text-align: center;
+     position: relative;
+}
+h1::after {
+    content: "";
+    position: absolute;
+    background-color: #009688;
+    width: 100%;
+    height: 100%;
+    transform: skew(-20deg , 0);
+    -webkit-transform: skew(-20deg , 0);
+    -moz-transform: skew(-20deg , 0);
+    -ms-transform: skew(-20deg , 0);
+    -o-transform: skew(-20deg , 0);
+    left: -21px;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+h1::before {
+    content: "";
+    position: absolute;
+    background-color: #009688;
+    width: 15%;
+    height: 100%;
+    transform: skew(-20deg , 0);
+    -webkit-transform: skew(-20deg , 0);
+    -moz-transform: skew(-20deg , 0);
+    -ms-transform: skew(-20deg , 0);
+    -o-transform: skew(-20deg , 0);
+    left: -81px;
+    top: 0;
+    z-index: -1;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Thrid Project  */
+
+
+/* * {
+    box-sizing: border-box;
+
+}
+
+div {
+
+    width: 200px;
+    height: 200px ;
+    margin: 150px auto;
+    background-color: #607D8B ;
+    padding: 20px ;
+    text-align: center; 
+    position: relative;
+}
+div::after {
+    content: "";
+    position: absolute;
+    width: 61%;
+    height: 61%;
+    background-color: black;
+    transform: rotate(45deg );
+    -webkit-transform: rotate(45deg );
+    -moz-transform: rotate(45deg );
+    -ms-transform: rotate(45deg );
+    -o-transform: rotate(45deg );
+    border: 10px solid white;
+    left: 30px;
+    top: -71px;
+}
+ */
+
+ /* Fourth Project  */
+
+
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.Container {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .Box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .Container:hover .Box {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+  
+  /* Position the front and back side */
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /*Safari*/backface-visibility: hidden;
+
+}
+  
+  /* Style the front side (fallback if image is missing) */
+  .front {
+    background-color: dodgerblue;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the back side */
+  .back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotate(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+
+
+
+/* Forth Agian  */
+
+
+
+
+.Container {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .Box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .Container:hover .Box {
+    transform: rotatex(180deg);
+    -webkit-transform: rotatex(180deg);
+    -moz-transform: rotatex(180deg);
+    -ms-transform: rotatex(180deg);
+    -o-transform: rotatex(180deg);
+}
+  
+  /* Position the front and back side */
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /*Safari*/backface-visibility: hidden;
+
+}
+  
+  /* Style the front side (fallback if image is missing) */
+  .front {
+    background-color: dodgerblue;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the back side */
+  .back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotatex(180deg);
+    -webkit-transform: rotatex(180deg);
+    -moz-transform: rotatex(180deg);
+    -ms-transform: rotatex(180deg);
+    -o-transform: rotatex(180deg);
+}
